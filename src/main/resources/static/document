@@ -1,0 +1,20 @@
+Richardson maturity level to evaluates rest services:
+
+level 0 : exposing soap web services in rest style
+     http://server/getPosts
+     http://server/deletePosts
+     
+level 1: Expose resource with proper URI (Improper HTTP methods)
+    http://server/accounts
+    http://server/accounts/10
+    
+level 2 : level 1 with use of proper HTTP methods
+
+level 3 : level 2 with HATEOAS
+
+### Best practices for Rest services design:
+1. Think of consumer first
+2. Create great document for APIs (using swagger)
+3. Use proper HTTP methods
+4. USe proper URI
+    
